@@ -1,0 +1,5 @@
+Django==5.2
+gunicorn
+psycopg2-binary  # If using PostgreSQL; skip if using SQLite
+python-decouple  # For environment variable management (optional but good)
+whitenoise  # Serves static files (optional for local, useful in prod)
